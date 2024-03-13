@@ -1,6 +1,8 @@
 import numpy as np
 import numpy.random as npr
 
+#adding some comments here to understand if there is change getting reflected in actual code,
+
 def bootstrap(data, num_samples, statistic, alpha):
     """Returns bootstrap estimate of 100.0*(1-alpha) CI for statistic."""
     n = len(data)
